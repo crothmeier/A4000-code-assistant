@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "openai",
+      "url": "http://localhost:8002/v1",
+      "apiKey": "REPLACE_ME",
+      "contextLength": 1024,
+      "enhancedContext": true
+    }
+  ]
+}

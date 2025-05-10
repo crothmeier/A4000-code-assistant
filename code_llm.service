@@ -1,0 +1,13 @@
+[Unit]
+Description=vLLM Code Assistant
+After=network.target
+
+[Service]
+Type=simple
+User=crathmene
+ExecStart=/home/crathmene/start_code_llm.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
